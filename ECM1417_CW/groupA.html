@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="javascript.js"></script>
+
+        <title>Group page</title>
+    </head>
+
+    <body>
+        <div id="topnav">
+            <a href="home.html">Home</a>
+            <a href="groupA.html" class="active">Group A</a> 
+            <a href="groupB.html">Group B</a> 
+            <a href="groupC.html">Group C</a> 
+            <a href="groupD.html">Group D</a> 
+            <a href="groupE.html">Group E</a> 
+            <a href="groupF.html">Group F</a>            
+            <a href="finals.html">Finals</a>
+            <a href="ranking.html">Ranking</a>
+            <a href="login.html">Logout</a>
+
+        </div>
+
+        <div class="watermark">
+            <img src="logo.png" class="watermark">
+        </div>
+
+        <div id="groupA">
+            <form method="POST">
+                <table>
+    
+                    <tr class="orange">
+                        <td class="left">Turkey</td>
+                        <td class="center">Italy</td>
+                        <td class="colright"><input type="text" class="group orange" name="turkey" id="turkeyvitaly" placeholder="XX"></td>
+                        <td class="colright"><input type="text"  class="group orange" name="italy" id="italyvturkey" placeholder="YY"></td>
+                    </tr>
+    
+                    <tr>
+                        <td class="left">Wales </td>
+                        <td class="center">Switzerland</td>
+                        <td class="colright" ><input type="text" class="group" name="wales" placeholder="..."></td>
+                        <td class="colright"><input type="text"  class="group" name="switzerland" placeholder="..."></td>
+                    </tr>
+    
+                    <tr class="orange">
+                        <td class="left">Turkey </td>
+                        <td class="center">Wales</td>
+                        <td class="colright" ><input type="text" class="group orange" name="turkey" placeholder="..."></td>
+                        <td class="colright"><input type="text"  class="group orange" name="wales" placeholder="..."></td>
+                    </tr>
+                    <tr>
+                        <td class="left">Italy </td>
+                        <td class="center">Switzerland</td>
+                        <td class="colright" ><input type="text" class="group" name="italy" placeholder="..."></td>
+                        <td class="colright"><input type="text"  class="group" name="switzerland" placeholder="..."></td>
+                    </tr>
+    
+                    <tr class="orange">
+                        <td class="left">Switzerland </td>
+                        <td class="center">Turkey</td>
+                        <td class="colright" ><input type="text" class="group orange" name="switzerland" placeholder="..."></td>
+                        <td class="colright"><input type="text"  class="group orange" name="turkey" placeholder="..."></td>
+                    </tr>
+                    <tr>
+                        <td class="left">Italy </td>
+                        <td class="center">Wales</td>
+                        <td class="colright" ><input type="text" class="group" name="italy" placeholder="..."></td>
+                        <td class="colright"><input type="text"  class="group" name="wales" placeholder="..."></td>
+                    </tr>
+    
+                    
+                </table>
+
+                <div class="groupbuttons">
+            
+                    <input type="button" class="savecancel" name="save" value="Save">
+                        
+                    <input type="reset" class="savecancel"  name="cancel" value="Cancel">
+                    
+                </div>
+
+            </form>
+        </div>
+
+        <php? require('group.php')></php>
+
+        
+    </body>
+</html>

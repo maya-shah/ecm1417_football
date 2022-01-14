@@ -1,0 +1,473 @@
+* {
+    font-family: Georgia; 
+}
+
+div.logo {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width:25%;
+    height:25%;
+    padding-top:10%;
+    
+}
+
+img.logo {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+}
+
+div#login {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width:85%;
+    margin-top:-8%;
+}
+
+#left {
+    text-align: center; 
+    float: left;
+}
+
+#right{
+    text-align: center;
+    float: right;
+    
+}
+
+#username, #password {
+    border: solid 1px black; 
+    box-sizing: border-box; 
+    background: transparent; 
+    padding: 12px 50px; 
+    width: 100%;
+    text-align: center;
+}
+
+::placeholder {
+    color: black;
+    font-size: 15px;
+}
+
+div.submit {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 75%;
+    height:100%;
+    margin-top: 12%;
+    margin-bottom: auto;
+}
+
+#login_button, #register {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 12px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 50%;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#topnav {
+    background-color: rgb(35, 162, 181);
+    overflow: hidden;
+    width:98%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+}
+
+#topnav a {
+    display: inline-block;
+    text-align: center; 
+    text-decoration: none; 
+    color:rgb(192, 39, 16);
+    font-family: Verdana; 
+    padding: 1.5%;
+    font-weight: bold;
+    
+    
+}
+#topnav a:hover{
+    background-color: rgb(26,123,136);
+}
+
+#topnav a.active {
+    background-color: rgb(26,123,136);
+}
+
+div.watermark {
+    width:100%;
+    height:auto;
+    position: fixed; 
+    bottom: 0px; 
+    right: 0px; 
+    z-index: -1;
+}
+
+img.watermark {
+    float: right;
+    width: 25%;
+    height: 30%;
+    margin: 15px;
+    opacity: 25%;
+    z-index: -1;
+}
+
+form {
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 10%;
+    display: block;
+}
+
+.left {
+    text-align:right;
+}
+
+.right {
+    text-align: left; 
+}
+
+.center {
+    text-align: center;
+}
+
+td.guess {
+    width: 10%;
+}
+
+.guess{
+    width: 100%;
+    outline-color: none;
+    border: none;
+}
+
+
+
+th {
+    width: 25%;
+    border-bottom: 1px solid black;
+    font-family: verdana; 
+}
+
+.green {
+    background: rgb(199, 214, 79);
+}
+
+.orange {
+    background: rgb(247, 167, 43);
+}
+
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 45%;
+}
+
+td, th {
+    padding: 8px 5px;
+}
+
+.preferences {
+    float: right;
+    width: 28%;
+    margin-top: -36.5%;
+    margin-right: 10%;
+}
+
+h3 {
+    text-decoration-line: underline;
+    font-weight: normal;
+
+}
+
+.prefinput {
+    border: solid 1px black; 
+    box-sizing: border-box; 
+    background: transparent; 
+    padding: 12px 50px; 
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+.colright {
+    border: 2px solid black;
+}
+
+.group {
+    width: 100%;
+    outline-color: none;
+    border: none;
+    text-align: center;   
+}
+
+.savecancel {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 100%;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+.groupbuttons {
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+    margin-top: -27%;
+}
+
+.register {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -8%;
+}
+
+
+.choose_country {
+    margin: 1% 1%;
+    padding: 1%;
+    width: 45%;
+}
+
+
+select.game {
+    width: 15%;
+    padding: .5% 0%;
+    margin-bottom: 1%;
+    border-radius: 0;
+    font-size: 15px;
+}
+
+select.game_right {
+    width: 15%;
+    padding: .5% 0%;
+    margin-bottom: 1%;
+    border-radius: 0;
+    font-size: 15px;
+    display: inline;
+}
+
+
+.right_side {
+    float:right;
+    
+}
+
+.left_side {
+    float: left;
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+div.userpred {
+    width: 15%;
+    margin: 10% 10%;
+}
+
+table.userpred {
+    margin: none; 
+    width: 100%;
+}
+
+div.result {
+    width:45%;
+    margin: 10% 10%;
+}
+
+table.result {
+    margin: none;
+    width: 100%;
+}
+
+.grey {
+    background-color: rgb(127,127,127)
+}
+
+.padding {
+    padding-left: 7%;
+}
+
+.tipbox {
+    border: 1px solid black;
+    width: 1%;
+    padding: .5% 2%;
+    display: inline;
+    margin-left: 3%;
+}
+
+.guessbox {
+    border: 1px solid black;
+    width: 1%;
+    height: 1%;
+    padding: .5% 2%;
+    display: inline;
+    margin-left: 77%;
+    margin-right: 3%;
+     
+}
+
+.winnerbox {
+    width: 15%;
+    padding: .5% 1%;
+    border-radius: 0;
+    font-size: 15px;
+    margin-left: 25%;
+    font-size: 15px;
+    border: 1px solid black;
+    display: inline;
+    text-align: center;
+}
+
+.winnerbox_right {
+    width: 15%;
+    padding: .5% 1%;
+    border-radius: 0;
+    font-size: 15px;
+    display: inline;
+    font-size: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.winnerguess {
+    border: 1px solid black;
+    width: 1%;
+    padding: .5% 2%;
+    text-align: center;
+    display: inline;
+    
+}
+
+.winnerguess_right {
+    border: 1px solid black;
+    width: 1%;
+    padding: .5% 2%;
+    text-align: center;
+    display: inline;
+    margin-left: 50%;
+}
+
+.semifinal {
+    width: 15%;
+    padding: .5% 1%;
+    border-radius: 0;
+    font-size: 15px;
+    margin-left: 50%;
+    font-size: 15px;
+    border: 1px solid black;
+    display: inline;
+    text-align: center;
+}
+
+.semi_right {
+    border: 1px solid black;
+    width: 1%;
+    padding: .5% 2%;
+    text-align: center;
+    display: inline;
+    margin-left: 20%;
+}
+
+.semi_right_box {
+    border: 1px solid black;
+    width: 1%;
+    padding: .5% 2%;
+    text-align: center;
+    display: inline;
+}
+
+
+.semifinal_tip {
+    border: 1px solid black;
+    width: 1%;
+    padding: .5% 2%;
+    text-align: center;
+    display: inline;
+}
+
+.final {
+    width: 15%;
+    padding: .5% 1%;
+    border-radius: 0;
+    font-size: 15px;
+    margin-left: 82.5%;
+    font-size: 15px;
+    border: 1px solid black;
+    display: inline;
+    text-align: center;
+}
+
+.final_tip {
+    border: 1px solid black;
+    width: 1%;
+    padding: .5% 2%;
+    text-align: center;
+    display: inline;
+}
+
+.final2 {
+    width: 15%;
+    padding: .5% 1%;
+    border-radius: 0;
+    font-size: 15px;
+    margin-right: 70%;
+    font-size: 15px;
+    border: 1px solid black;
+    display: inline;
+    text-align: center;
+}
+
+.final_tip2 {
+    border: 1px solid black;
+    width: 1%;
+    padding: .5% 2%;
+    text-align: center;
+    display: inline;
+}
+
+.submitbutton {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 12px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 25%;
+    font-size: 15px;
+    cursor:pointer;
+}

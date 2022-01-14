@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="javascript.js"></script>
+
+        <title>Group page</title>
+    </head>
+
+    <body>
+        <div id="topnav">
+            <a href="home.html">Home</a>
+            <a href="groupA.html" >Group A</a> 
+            <a href="groupB.html" class="active">Group B</a> 
+            <a href="groupC.html">Group C</a> 
+            <a href="groupD.html">Group D</a> 
+            <a href="groupE.html">Group E</a> 
+            <a href="groupF.html">Group F</a>            
+            <a href="finals.html">Finals</a>
+            <a href="ranking.html">Ranking</a>
+            <a href="login.html">Logout</a>
+
+        </div>
+
+        <div class="watermark">
+            <img src="logo.png" class="watermark">
+        </div>
+
+        <div id="groupB">
+            <form method="post">
+                <table>
+    
+                    <tr class="orange">
+                        <td class="left">Denmark</td>
+                        <td class="center">Finland</td>
+                        <td class="colright"><input type="text" class="group orange" name="groupB" placeholder="XX"></td>
+                        <td class="colright"><input type="text"  class="group orange" name="groupB" placeholder="YY"></td>
+                    </tr>
+    
+                    <tr>
+                        <td class="left">Belgium </td>
+                        <td class="center">Russia</td>
+                        <td class="colright" ><input type="text" class="group" name="groupB" placeholder="..."></td>
+                        <td class="colright"><input type="text"  class="group" name="groupB" placeholder="..."></td>
+                    </tr>
+    
+                    <tr class="orange">
+                        <td class="left">Finland </td>
+                        <td class="center">Russia</td>
+                        <td class="colright" ><input type="text" class="group orange" name="groupB" placeholder="..."></td>
+                        <td class="colright"><input type="text"  class="group orange" name="groupB" placeholder="..."></td>
+                    </tr>
+                    <tr>
+                        <td class="left">Denmark </td>
+                        <td class="center">Belgium</td>
+                        <td class="colright" ><input type="text" class="group" name="groupB" placeholder="..."></td>
+                        <td class="colright"><input type="text"  class="group" name="groupB" placeholder="..."></td>
+                    </tr>
+    
+                    <tr class="orange">
+                        <td class="left">Russia </td>
+                        <td class="center">Denmark</td>
+                        <td class="colright" ><input type="text" class="group orange" name="groupB" placeholder="..."></td>
+                        <td class="colright"><input type="text"  class="group orange" name="groupB" placeholder="..."></td>
+                    </tr>
+                    <tr>
+                        <td class="left">Finland </td>
+                        <td class="center">Belgium</td>
+                        <td class="colright" ><input type="text" class="group" name="groupB" placeholder="..."></td>
+                        <td class="colright"><input type="text"  class="group" name="groupB" placeholder="..."></td>
+                    </tr>
+    
+                    
+                </table>
+
+                <div class="groupbuttons">
+            
+                    <input type="button" class="savecancel" name="save" value="Save">
+                        
+                    <input type="reset" class="savecancel"  name="cancel" value="Cancel">
+                    
+                </div>
+
+            </form>
+        </div>
+
+        <php? require('group.php')></php>
+    </body>
+</html>
